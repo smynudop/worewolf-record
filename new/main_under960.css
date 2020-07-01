@@ -1,0 +1,60 @@
+@media screen and (max-width:960px){
+	:root{
+		--fontsize: 9pt;
+		--font-medium:11px;
+	}
+	body{
+		margin:0;
+	}
+
+	section#input, section#output{
+		padding:0 5px;
+		width: 100%;
+	}
+	section#input{
+
+		position:fixed;
+		top:0;
+		left:0;
+
+		width: 100%;
+		height: calc(100vh - 30px);
+
+		overflow-y:auto;
+
+		box-sizing:border-box;
+		font-size:10.5pt;
+		background-color: #ffe8d1;
+
+		display:none;
+
+	}
+
+	#info{
+		text-align:center;
+	}
+
+	.mobamas{
+		display:none;
+	}
+
+	#spnavi{
+		position:fixed;
+		bottom:0;
+
+		width:100%;
+		height:30px;
+		background-color: #333;
+		color: white;
+		font-size:0;
+		z-index:2;
+	}
+
+	.naviItem{
+		display: inline-block;
+		font-size: 12pt;
+		width: 50%;
+		text-align:center;
+		line-height: 30px;
+	}
+}

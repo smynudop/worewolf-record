@@ -1,0 +1,53 @@
+@media screen and (min-width:961px){
+	:root{
+		--fontsize: 10.5pt;
+		--font-medium: 12px;
+	}
+	body{
+		margin: 0 0 0 10px;
+	}
+
+	#form{
+		width: 500px;
+	}
+
+	section#input{
+
+		position:fixed;
+		right:0;
+		top:0;
+
+		width: 400px;
+		height: calc(100vh - 30px);
+
+		overflow-y:auto;
+
+		box-sizing:border-box;
+		font-size:10.5pt;
+		background-color: #ffe8d1;
+
+		display:none;
+
+	}
+
+	#spnavi{
+		position:fixed;
+		bottom:0;
+		right:0;
+
+		width:400px;
+		height:30px;
+		background-color: #333;
+		color: white;
+		font-size:0;
+	}
+
+	.naviItem{
+		display:inline-block;
+		font-size: 12pt;
+		width: 200px;
+		text-align:center;
+		line-height: 30px;
+	}
+
+}
